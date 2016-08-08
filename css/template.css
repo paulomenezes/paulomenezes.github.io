@@ -60,3 +60,15 @@ body {
 .text-bold {
 	font-weight: bold;
 }
+
+.light-blue-text {
+	overflow: hidden;
+}
+
+.light-blue-text.row {
+	margin-bottom: 0;
+}
+
+.light-blue-text div:first-child {
+	font-weight: bold;
+}
