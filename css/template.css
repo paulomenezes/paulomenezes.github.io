@@ -2,6 +2,10 @@ body {
 	margin: 20px 0;
 }
 
+.container {
+	padding: 0 !important;
+}
+
 .brand-logo {
 	margin-left: 10px;
 	font-size: 19px !important;
@@ -21,6 +25,9 @@ body {
 
 .profile-phone .phone {
 	font-size: 18px;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .content-icon-title {
@@ -47,7 +54,7 @@ body {
 .divider-content {
 	height: 1px;
 	background-color: #CCC;
-	margin: 20px -20px 20px 96px;
+	margin: 20px -20px 20px 15%;
 }
 
 .text-bold {
