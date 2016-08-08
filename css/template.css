@@ -1,0 +1,55 @@
+body {
+	margin: 20px 0;
+}
+
+.brand-logo {
+	margin-left: 10px;
+	font-size: 19px !important;
+}
+
+.profile-image {
+	padding: 0;
+}
+
+.profile-content {
+	padding: 20px;
+}
+
+.profile-text {
+	text-align: justify;
+}
+
+.profile-phone .phone {
+	font-size: 18px;
+}
+
+.content-icon-title {
+	margin-top: 3px;
+}
+
+.divider {
+	clear: both;
+	background-color: transparent;
+	height: 21px;
+
+	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-right: -8px;
+}
+
+.divider .line {
+	background-color: #0288d1;
+	height: 1px;
+
+	margin-left: 62px;
+}
+
+.divider-content {
+	height: 1px;
+	background-color: #CCC;
+	margin: 20px -20px 20px 96px;
+}
+
+.text-bold {
+	font-weight: bold;
+}
