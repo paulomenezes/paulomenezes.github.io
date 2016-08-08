@@ -7,7 +7,7 @@ body {
 }
 
 .brand-logo {
-	margin-left: 10px;
+	margin-left: 20px;
 	font-size: 19px !important;
 }
 
@@ -28,6 +28,14 @@ body {
 
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.profile-phone .phone a {
+	color: #FFF;
+}
+
+.profile-phone .phone a:hover {
+	text-decoration: underline;
 }
 
 .content-icon-title {
@@ -66,6 +74,10 @@ body {
 }
 
 .light-blue-text.row {
+	margin-bottom: 10px;
+}
+
+.light-blue-text.row:last-child {
 	margin-bottom: 0;
 }
 
